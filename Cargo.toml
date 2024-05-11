@@ -9,6 +9,8 @@ keywords = ["arm", "cortex-m", "niiet", "svd2rust",]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 description = "The peripheral access crate for k1921vk035."
+repository = "https://github.com/tverka/k1921vk035-pac"
+homepage = "https://github.com/tverka/k1921vk035-pac"
 
 [badges]
 maintenance = { status = "experimental" }
@@ -21,3 +23,4 @@ vcell = "0.1.2"
 
 [features]
 rt = ["cortex-m-rt/device"]
+
